@@ -1,0 +1,12 @@
+/src
+ ├── index.js
+ ├── config/
+ │     └── constants.js
+ ├── services/
+ │     └── FraudDetector.js
+ ├── rules/
+ │     ├── dailyAmountRule.js
+ │     ├── rapidTransactionRule.js
+ │     └── geoAnomalyRule.js
+ ├── utils/
+ │     └── groupTransactions.js

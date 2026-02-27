@@ -1,0 +1,11 @@
+const DAILY_LIMIT = 50000
+const RAPID_TX_LIMIT = 3
+const RAPID_WINDOW_MS = 60 * 1000
+const GEO_WINDOW_MS = 30 * 60 * 1000
+
+module.exports = {
+  DAILY_LIMIT,
+  RAPID_TX_LIMIT,
+  RAPID_WINDOW_MS,
+  GEO_WINDOW_MS
+}
